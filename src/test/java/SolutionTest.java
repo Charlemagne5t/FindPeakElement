@@ -19,4 +19,22 @@ public class SolutionTest {
 
         Assert.assertEquals(expected, actual);
     }
+
+    @Test
+    public void findPeakElementTest3() {
+        int[] nums = {1};
+        int expected = 0;
+        int actual = new Solution().findPeakElement(nums);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void findPeakElementTest4() {
+        int[] nums = {1,2};
+        int expected = 1;
+        int actual = new Solution().findPeakElement(nums);
+
+        Assert.assertEquals(expected, actual);
+    }
 }
